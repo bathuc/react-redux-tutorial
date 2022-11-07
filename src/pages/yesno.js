@@ -27,7 +27,7 @@ const Yesno = (props) => {
             <Table/>
     
             <div style={{display: "flex", alignItems: "center"}}>
-                <button onClick={handleClick} style={{'margin-right': '20px'}}>Pick</button>
+                <button onClick={handleClick} style={{marginRight: '20px'}}>Pick</button>
                 <div>answer: {answer}</div>
             </div>
         </div>
